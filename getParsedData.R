@@ -15,7 +15,7 @@ getParsedData <- function()
                            colClasses = c("character", "character", "numeric", "numeric", "numeric", 
                                           "numeric", "numeric", "numeric", "numeric"));
         
-        ## extract data from using specified dates
+        ## extract data using specified dates
         parseddata <- data[((data$Date == "1/2/2007") | (data$Date == "2/2/2007")),]
         
         ## save parsed data set
