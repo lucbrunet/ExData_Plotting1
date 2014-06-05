@@ -3,7 +3,7 @@ getParsedData <- function()
     ## This function takes the very large data set 'household_power_consumption.txt'
     ## and parses out the data from '1/2/2007' to '2/2/2007'.  It then saves the parsed
     ## data to a separete csv file named 'parsed_household_power_consumption.txt' to speed
-    ## up loading the data set on subsequent calls
+    ## up loading the data set on subsequent calls throughout the assignment
     
     if(!file.exists("parsed_household_power_consumption.txt"))
     {
