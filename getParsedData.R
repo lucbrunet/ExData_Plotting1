@@ -5,6 +5,9 @@ getParsedData <- function()
     ## data to a separete csv file named 'parsed_household_power_consumption.txt' to speed
     ## up loading the data set on subsequent calls throughout the assignment
     
+    ## NOTE:: YOU MUST UNZIP THE DATASET IN THE CURRENT WORKING DIRECTORY
+    ## data set --> https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+    
     if(!file.exists("parsed_household_power_consumption.txt"))
     {
         ## read in the large data set
